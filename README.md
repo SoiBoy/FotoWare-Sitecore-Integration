@@ -8,8 +8,8 @@ With this plugin you can import FotoWare-images directly to Sitecore.
 + Synchronize imported data with FotoWare
 
 ## Supported Sitecore Field-Types
-+ Image-Field
-+ RichText-Field
++ Image
++ RichText
 
 ## Demo
 <img src="Demo.gif" />
