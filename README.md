@@ -7,7 +7,7 @@ With this plugin you can import FotoWare-images directly to Sitecore.
 + Edit image with FotoWare-Tools
 + Synchronize imported data with FotoWare
 
-## Supported Sitecore-Field-Types
+## Supported Sitecore Field-Types
 + Image-Field
 + RichText-Field
 
@@ -19,7 +19,7 @@ With this plugin you can import FotoWare-images directly to Sitecore.
 + FotoWare with "Non-interactive" authorization (__[more Informations here](https://learn.fotoware.com/Integrations_and_APIs/Authorizing_applications_using_OAuth/03_Authorizing_a_client_using_OAuth_2.0/Non-interactive_application_authorization_with_OAuth_2.0)__)
 
 ## Installation Guide
-### 1. Set following configurations in Sitecore and replace with your data
+### 1. Set following configurations in Sitecore and replace with your data:
 ```
 <setting name="Foundation.FotoWareFields.FotoWare.TenantUrl" value="YOUR_FOTOWARE_BASE_URL" />
 ```
