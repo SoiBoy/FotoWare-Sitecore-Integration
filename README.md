@@ -1,0 +1,1 @@
+# FotoWare-Sitecore-Integration
