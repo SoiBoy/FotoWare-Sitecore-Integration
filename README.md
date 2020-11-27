@@ -1,10 +1,10 @@
 # FotoWare-Sitecore-Integration
 ## Description
-With this plugin you can import FotoWare-images directly to Sitecore.
+With this module you can import images managed in FotoWare DAM directly to into your Sitecore media library.
 
 ## Features
-+ Select and import single image with FotoWare-Metadata
-+ Edit image with FotoWare-Tools
++ Select and import single image along with related meta-data 
++ Edit image (Crop, Resize, Add Filters) with FotoWare-Tools before importing
 + Synchronize imported data with FotoWare
 
 ## Supported Sitecore Field-Types
@@ -15,7 +15,8 @@ With this plugin you can import FotoWare-images directly to Sitecore.
 <img src="Demo.gif" />
 
 ## Requirements
-+ Sitecore 9.1
++ Sitecore 9.1 (might work for other versions, was programmed against Sitecore 9.1 Initial Release)
++ Sitecore Powershell Extensions (https://doc.sitecorepowershell.com/)
 + FotoWare with "Non-interactive" authorization (__[more Informations here](https://learn.fotoware.com/Integrations_and_APIs/Authorizing_applications_using_OAuth/03_Authorizing_a_client_using_OAuth_2.0/Non-interactive_application_authorization_with_OAuth_2.0)__)
 
 ## Installation Guide
@@ -30,7 +31,7 @@ With this plugin you can import FotoWare-images directly to Sitecore.
 <setting name="Foundation.FotoWareFields.FotoWare.ClientSecret" value="YOUR_FOTOWARE_NON_INTERACTIVE_CLIENT_SECRET" />
 ```
 #### Optional configurations:
-Set content leanguage (default de-DE):
+Set content language (default de-DE):
 ```
 <setting name="Foundation.FotoWareFields.Language" value="YOUR_LANGUAGE" />
 ```
